@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РидРес</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" width="135" height="69" alt="РидРес Книжный интернет магазин">
+                    </a>
+                </div>
+
+                <form action="#" method="GET" class="header__form">
+                    <input type="search" class="header__form-input" placeholder="Книга, автор, серия, издательство, тег, жанр">
+                    <button class="header__form-btn" type="submit">
+                        <img src="img/search.svg" width="20" height="20" alt="Search">
+                    </button>
+                </form>
+
+                <div class="header__user">
+                    <button class="header__user-auth">
+                        <img src="img/user.svg" width="20" height="20" alt="Auth">
+                    </button>
+                    <button class="header__user-advice">
+                        <img src="img/advice.svg" width="20" height="20" alt="advice">
+                    </button>
+
+                    <a href="#" class="header__user-books">
+                        Мои книги
+                    </a>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="audiobook.html">Аудиокниги</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="#">Жанры</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="newbook.html">Новинки</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="#">Что почитать?</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="index.html">Популярное</a>
+                    </li>
+                </ul>
+                <button type="button" class="header-menu__burger">
+                    <span class="header-menu__burger-item"></span>
+                </button>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="best">
+        <div class="container">
+            <h1 class="title title--best">Лучшее</h1>
+
+            <div class="best__inner">
+                <div class="best__book-1">
+                    <div class="best__book-img">
+                        <picture>
+                            <a href="book.html">
+                                <source type="image/webp" srcset="img/book-hp.webp, img/book-hp@2x.webp 2x, img/book-hp@3x.webp 3x">
+                                <img src="img/book-hp.png" class="book-img" srcset="img/book-hp@2x.png 2x, img/book-hp@3x.png 3x" alt="Гарри Поттер и философский камень">
+                            </a>
+                        </picture>
+                    </div>
+
+                    <div class="best__book-descr">
+                        <div class="best__book-left">
+                            <a href="#" class="best__book-author">Дж.К. Роулинг</a>
+                            <a href="book.html" class="best__book-name">
+                                Гарри Поттер  и Философский Камень
+                            </a>
+                        </div>
+                        <div class="best__book-watch">
+                            <a href="book.html" class="best__book-link">Смотреть</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="best__book-2">
+                    <div class="best__book-img-2">
+                        <picture>
+                            <a href="book.html">
+                                <source type="image/webp" srcset="img/book-makabr.webp, img/book-makabr@2x.webp 2x, img/book-makabr@3x.webp 3x">
+                                <img src="img/book-makabr.png" class="book-img" srcset="img/book-makabr@2x.png 2x, img/book-makabr@3x.png 3x" alt="Макабр. Игра в Сумерках">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="best__book-full">
+
+                        <div class="book-full__header">
+                           <a class="book-full__author" href="#">Мила Нокс</a> 
+
+                            <a class="book-full__name" href="book.html">Миднайт. Наместник ночи</a>
+                        </div>
+
+                        <div class="book-full__info">
+                            <div class="book-full__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                            </div>
+
+                            <p class="book-full__descr">
+                            Первая книга новой фэнтези-серии «Миднайт» 
+                            писательницы Милы Нокс, автора популярного цикла «Макабр».
+                            </p>
+                        </div>
+
+                        <div class="best__book-watch">
+                            <a href="book.html" class="best__book-link">Смотреть</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="popular">
+        <div class="container">
+            <div class="title title--popular">
+                Популярное
+            </div>
+            <div class="slider__arrow">
+                <img src="img/arrow-left.svg" class="slider__arrow-left" width="55" height="55" alt="Left">
+                <img src="img/arrow-right.svg" class="slider__arrow-right" width="55" height="55" alt="Left">
+            </div>
+
+            <div class="popular__slider">
+                <div class="popular__slider-item">
+                    <div class="popular__slider-img">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcset="img/book-john-keho.webp, img/book-john-keho@2x.webp 2x, img/book-john-keho@3x.webp 3x">
+                                <img data-lazy="img/book-john-keho.png" class="popular__slider-img-photo" srcset="img/book-john-keho@2x.png 2x, img/book-john-keho@3x.png 3x" alt="Джон Кехо Подсознание может всё">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="popular__slider-descr">
+                        <div class="popular__slider-descr-author">
+                           <a href="#">Джон Кехо</a> 
+                        </div>
+                        <div class="popular__slider-descr-name">
+                           <a class="popular__slider-descr-text" href="book.html">Подсознание может всё!</a> 
+                        </div>
+                        <div class="popular__slider-descr-rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="popular__slider-descr-btn">
+                            <a href="book.html" class="popular__slider-btn-link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__slider-item">
+                    <div class="popular__slider-img">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcset="img/book-den-сinсero.webp, img/book-den-сinсero@2x.webp 2x, img/book-den-сinсero@3x.webp 3x">
+                           <img data-lazy="img/book-den-сinсero.png" class="popular__slider-img-photo" srcset="img/book-den-сinсero@2x.png 2x, img/book-den-сinсero@3x.png 3x" alt="Джон Кехо Подсознание может всё">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="popular__slider-descr">
+                        <div class="popular__slider-descr-author">
+                           <a href="#">Джен Синсеро</a> 
+                        </div>
+                        <div class="popular__slider-descr-name">
+                           <a class="popular__slider-descr-text" href="book.html">НИ СЫ. Восточная мудрость, которая гласит</a> 
+                        </div>
+                        <div class="popular__slider-descr-rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="popular__slider-descr-btn">
+                            <a href="book.html" class="popular__slider-btn-link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__slider-item">
+                    <div class="popular__slider-img">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcset="img/book-john-keho.webp, img/book-john-keho@2x.webp 2x, img/book-john-keho@3x.webp 3x">
+                                <img data-lazy="img/book-john-keho.png" class="popular__slider-img-photo" srcset="img/book-john-keho@2x.png 2x, img/book-john-keho@3x.png 3x" alt="Джон Кехо Подсознание может всё">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="popular__slider-descr">
+                        <div class="popular__slider-descr-author">
+                           <a href="#">Джон Кехо</a> 
+                        </div>
+                        <div class="popular__slider-descr-name">
+                           <a class="popular__slider-descr-text" href="book.html">Подсознание может всё!</a> 
+                        </div>
+                        <div class="popular__slider-descr-rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="popular__slider-descr-btn">
+                            <a href="book.html" class="popular__slider-btn-link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__slider-item">
+                    <div class="popular__slider-img">
+                        <picture>
+                            <a href="book.html">
+                                <source type="image/webp" srcset="img/book-den-сinсero.webp, img/book-den-сinсero@2x.webp 2x, img/book-den-сinсero@3x.webp 3x">
+                                <img data-lazy="img/book-den-сinсero.png" class="popular__slider-img-photo" srcset="img/book-den-сinсero@2x.png 2x, img/book-den-сinсero@3x.png 3x" alt="Джон Кехо Подсознание может всё">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="popular__slider-descr">
+                        <div class="popular__slider-descr-author">
+                           <a href="#">Джен Синсеро</a> 
+                        </div>
+                        <div class="popular__slider-descr-name">
+                           <a class="popular__slider-descr-text" href="book.html">НИ СЫ. Восточная мудрость, которая гласит</a> 
+                        </div>
+                        <div class="popular__slider-descr-rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="popular__slider-descr-btn">
+                            <a href="book.html" class="popular__slider-btn-link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__slider-item">
+                    <div class="popular__slider-img">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcset="img/book-john-keho.webp, img/book-john-keho@2x.webp 2x, img/book-john-keho@3x.webp 3x">
+                                <img data-lazy="img/book-john-keho.png" class="popular__slider-img-photo" srcset="img/book-john-keho@2x.png 2x, img/book-john-keho@3x.png 3x" alt="Джон Кехо Подсознание может всё">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="popular__slider-descr">
+                        <div class="popular__slider-descr-author">
+                           <a href="#">Джон Кехо</a> 
+                        </div>
+                        <div class="popular__slider-descr-name">
+                           <a class="popular__slider-descr-text" href="book.html">Подсознание может всё!</a> 
+                        </div>
+                        <div class="popular__slider-descr-rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="popular__slider-descr-btn">
+                            <a href="book.html" class="popular__slider-btn-link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__slider-item">
+                    <div class="popular__slider-img">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcset="img/book-den-сinсero.webp, img/book-den-сinсero@2x.webp 2x, img/book-den-сinсero@3x.webp 3x">
+                            <img data-lazy="img/book-den-сinсero.png" class="popular__slider-img-photo" srcset="img/book-den-сinсero@2x.png 2x, img/book-den-сinсero@3x.png 3x" alt="Джон Кехо Подсознание может всё">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="popular__slider-descr">
+                        <div class="popular__slider-descr-author">
+                           <a href="#">Джен Синсеро</a> 
+                        </div>
+                        <div class="popular__slider-descr-name">
+                           <a class="popular__slider-descr-text" href="book.html">НИ СЫ. Восточная мудрость, которая гласит</a> 
+                        </div>
+                        <div class="popular__slider-descr-rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="popular__slider-descr-btn">
+                            <a href="book.html" class="popular__slider-btn-link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__slider-item">
+                    <div class="popular__slider-img">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcset="img/book-john-keho.webp, img/book-john-keho@2x.webp 2x, img/book-john-keho@3x.webp 3x">
+                                <img data-lazy="img/book-john-keho.png" class="popular__slider-img-photo" srcset="img/book-john-keho@2x.png 2x, img/book-john-keho@3x.png 3x" alt="Джон Кехо Подсознание может всё">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="popular__slider-descr">
+                        <div class="popular__slider-descr-author">
+                           <a href="#">Джон Кехо</a> 
+                        </div>
+                        <div class="popular__slider-descr-name">
+                           <a class="popular__slider-descr-text" href="book.html">Подсознание может всё!</a> 
+                        </div>
+                        <div class="popular__slider-descr-rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="popular__slider-descr-btn">
+                            <a href="book.html" class="popular__slider-btn-link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__slider-item">
+                    <div class="popular__slider-img">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcset="img/book-den-сinсero.webp, img/book-den-сinсero@2x.webp 2x, img/book-den-сinсero@3x.webp 3x">
+                            <img data-lazy="img/book-den-сinсero.png" class="popular__slider-img-photo" srcset="img/book-den-сinсero@2x.png 2x, img/book-den-сinсero@3x.png 3x" alt="Джон Кехо Подсознание может всё">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="popular__slider-descr">
+                        <div class="popular__slider-descr-author">
+                           <a href="#">Джен Синсеро</a> 
+                        </div>
+                        <div class="popular__slider-descr-name">
+                           <a class="popular__slider-descr-text" href="book.html">НИ СЫ. Восточная мудрость, которая гласит</a> 
+                        </div>
+                        <div class="popular__slider-descr-rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="popular__slider-descr-btn">
+                            <a href="book.html" class="popular__slider-btn-link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="horror">
+        <div class="container">
+            <div class="title title--horror">
+                Ужасы / Мистика
+            </div>
+            <div class="slider__arrow">
+                <img src="img/arrow-left.svg" class="slider_arrow-left horror__arrow-left" width="55" height="55" alt="Left">
+                <img src="img/arrow-right.svg" class="slider_arrow-right horror__arrow-right" width="55" height="55" alt="Left">
+            </div>
+
+            <div class="horror__slider">
+                <div class="horror__slider-item">
+                    <div class="horror-item__sale">
+                        <span class="horror-item__sale-text">50%</span>
+                    </div>
+                    <div class="horror-item__book">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcet="img/book-univer.webp, img/book-univer@2x.webp, img/book-univer@3x.webp 3x">
+                            <img data-lazy="img/book-univer.png" class="horror-item__book-img" srcset="img/book-univer@2x.png 2x, img/book-univer@3x.png 3x"  alt="Стивен Кинг Институт">
+                            
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="horror-item__author">
+                       <a href="#">Стивен Кинг</a> 
+                    </div>
+                    <a href="book.html" class="horror-item__name">
+                        Институт
+                    </a>
+                    <div class="horror-item__footer">
+                        <div class="horror-item__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="horror-item__btn">
+                            <a href="book.html" class="horror-item__link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horror__slider-item">
+                    <div class="horror-item__sale">
+                        <span class="horror-item__sale-text">50%</span>
+                    </div>
+                    <div class="horror-item__book">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcet="img/book-it.webp, img/book-it@2x.webp, img/book-it@3x.webp 3x">
+                            <img data-lazy="img/book-it.png" class="horror-item__book-img" srcset="img/book-it@2x.png 2x, img/book-it@3x.png 3x"  alt="Стивен Кинг Институт">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="horror-item__author">
+                       <a href="#">Стивен Кинг</a> 
+                    </div>
+                    <a href="book.html" class="horror-item__name">
+                        Оно
+                    </a>
+                    <div class="horror-item__footer">
+                        <div class="horror-item__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="horror-item__btn">
+                            <a href="book.html" class="horror-item__link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horror__slider-item">
+                    <div class="horror-item__sale">
+                        <span class="horror-item__sale-text">50%</span>
+                    </div>
+                    <div class="horror-item__book">
+                        <picture>
+                            <source type="image/webp" srcet="img/book-madness.webp, img/book-madness@2x.webp, img/book-madness@3x.webp 3x">
+                            <a href="book.html">
+                            <img data-lazy="img/book-madness.png" class="horror-item__book-img" srcset="img/book-madness@2x.png 2x, img/book-madness@3x.png 3x"  alt="Стивен Кинг Институт">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="horror-item__author">
+                       <a href="#">Говард Ф. Лавкрафт</a> 
+                    </div>
+                    <a href="book.html" class="horror-item__name">
+                        Хребты безумия
+                    </a>
+                    <div class="horror-item__footer">
+                        <div class="horror-item__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="horror-item__btn">
+                            <a href="book.html" class="horror-item__link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horror__slider-item">
+                    <div class="horror-item__sale">
+                        <span class="horror-item__sale-text">50%</span>
+                    </div>
+                    <div class="horror-item__book">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcet="img/book-dead-zone.webp, img/book-dead-zone@2x.webp, img/book-dead-zone@3x.webp 3x">
+                            <img data-lazy="img/book-dead-zone.png" class="horror-item__book-img" srcset="img/book-dead-zone@2x.png 2x, img/book-dead-zone@3x.png 3x"  alt="Стивен Кинг Институт">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="horror-item__author">
+                       <a href="#">Стивен Кинг</a> 
+                    </div>
+                    <a href="book.html" class="horror-item__name">
+                        Мёртвая зона
+                    </a>
+                    <div class="horror-item__footer">
+                        <div class="horror-item__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="horror-item__btn">
+                            <a href="book.html" class="horror-item__link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horror__slider-item">
+                    <div class="horror-item__sale">
+                        <span class="horror-item__sale-text">50%</span>
+                    </div>
+                    <div class="horror-item__book">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcet="img/book-univer.webp, img/book-univer@2x.webp, img/book-univer@3x.webp 3x">
+                            <img data-lazy="img/book-univer.png" class="horror-item__book-img" srcset="img/book-univer@2x.png 2x, img/book-univer@3x.png 3x"  alt="Стивен Кинг Институт">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="horror-item__author">
+                       <a href="#">Стивен Кинг</a> 
+                    </div>
+                    <a href="book.html" class="horror-item__name">
+                        Институт
+                    </a>
+                    <div class="horror-item__footer">
+                        <div class="horror-item__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="horror-item__btn">
+                            <a href="book.html" class="horror-item__link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horror__slider-item">
+                    <div class="horror-item__sale">
+                        <span class="horror-item__sale-text">50%</span>
+                    </div>
+                    <div class="horror-item__book">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcet="img/book-it.webp, img/book-it@2x.webp, img/book-it@3x.webp 3x">
+                            <img data-lazy="img/book-it.png" class="horror-item__book-img" srcset="img/book-it@2x.png 2x, img/book-it@3x.png 3x"  alt="Стивен Кинг Институт">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="horror-item__author">
+                       <a href="#">Стивен Кинг</a> 
+                    </div>
+                    <a href="book.html" class="horror-item__name">
+                        Оно
+                    </a>
+                    <div class="horror-item__footer">
+                        <div class="horror-item__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="horror-item__btn">
+                            <a href="book.html" class="horror-item__link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horror__slider-item">
+                    <div class="horror-item__sale">
+                        <span class="horror-item__sale-text">50%</span>
+                    </div>
+                    <div class="horror-item__book">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcet="img/book-madness.webp, img/book-madness@2x.webp, img/book-madness@3x.webp 3x">
+                            <img data-lazy="img/book-madness.png" class="horror-item__book-img" srcset="img/book-madness@2x.png 2x, img/book-madness@3x.png 3x"  alt="Стивен Кинг Институт">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="horror-item__author">
+                       <a href="#">Говард Ф. Лавкрафт</a> 
+                    </div>
+                    <a href="book.html" class="horror-item__name">
+                        Хребты безумия
+                    </a>
+                    <div class="horror-item__footer">
+                        <div class="horror-item__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="horror-item__btn">
+                            <a href="book.html" class="horror-item__link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="horror__slider-item">
+                    <div class="horror-item__sale">
+                        <span class="horror-item__sale-text">50%</span>
+                    </div>
+                    <div class="horror-item__book">
+                        <picture>
+                            <a href="book.html">
+                            <source type="image/webp" srcet="img/book-dead-zone.webp, img/book-dead-zone@2x.webp, img/book-dead-zone@3x.webp 3x">
+                            <img data-lazy="img/book-dead-zone.png" class="horror-item__book-img" srcset="img/book-dead-zone@2x.png 2x, img/book-dead-zone@3x.png 3x"  alt="Стивен Кинг Институт">
+                            </a>
+                        </picture>
+                    </div>
+                    <div class="horror-item__author">
+                       <a href="#">Стивен Кинг</a> 
+                    </div>
+                    <a href="book.html" class="horror-item__name">
+                        Мёртвая зона
+                    </a>
+                    <div class="horror-item__footer">
+                        <div class="horror-item__rating">
+                            <img src="img/star.svg" width="16" height="15" alt="star">
+                            <span class="rating-count">4.4</span>
+                        </div>
+                        <div class="horror-item__btn">
+                            <a href="book.html" class="horror-item__link">
+                                Читать
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+          
+            </div>
+        </div>
+    </section>
+
+
+ <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="logo logo--footer">
+                    <a href="index.html">
+                        <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" width="135" height="69" alt="РидРес Книжный интернет магазин">
+                    </a>
+                </div>
+                <div class="footer__col footer__col-about">
+                    <a href="#" class="footer__col-link">О компании </a>       
+                    <a href="#" class="footer__col-link">Контакты</a>
+                    <a href="#" class="footer__col-link">Служба поддержки</a>
+                    <a href="#" class="footer__col-link">Возврат</a>
+                </div>
+                <div class="footer__col footer__col-cooperation">
+                    <a href="#" class="footer__col-link">Публичная оферта</a>       
+                    <a href="#" class="footer__col-link">Политика обработки персональных данных</a>
+                    <a href="#" class="footer__col-link">Согласие на получение рассылки</a>
+                    <a href="#" class="footer__col-link">Сотрудничество</a>
+                </div>
+                <div class="footer__col footer__col-info">
+                    <a href="#" class="footer__col-link">Издательствам</a>       
+                    <a href="#" class="footer__col-link">Авторам</a>
+                    <a href="#" class="footer__col-link">Библиотекам</a>
+                    <a href="#" class="footer__col-link">Партнёрам</a>
+                    <a href="#" class="footer__col-link">Вебмастерам</a>
+                </div>
+                <div class="footer__col footer__col-book">
+                    <a href="newbook.html" class="footer__col-link">Что почитать?</a>       
+                    <a href="#" class="footer__col-link">Бестселлеры</a>
+                    <a href="#" class="footer__col-link">Скоро в продаже</a>
+                    <a href="#" class="footer__col-link">Популярные авторы</a>
+                    <a href="#" class="footer__col-link">Популярные авторы</a>
+                    <a href="#" class="footer__col-link">Интервью с авторами</a>
+                    <a href="#" class="footer__col-link">РидРес: Истории</a>
+                </div>
+                <div class="footer__col footer__col-social">
+                    <span>РидРес в соц.сетях:</span>
+                    <div class="footer__col-icon">
+                        <a target="_blank" href="https://vk.com/ohwwoow">
+                            <img src="img/vk.svg" width="24" height="24" alt="vk">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img src="img/facebook.svg" width="24" height="24" alt="facebook">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/ohwwoow/">
+                            <img src="img/instagram.svg" width="24" height="24" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

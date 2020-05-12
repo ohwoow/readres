@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макабр Игра в сумерках</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" width="135" height="69" alt="РидРес Книжный интернет магазин">
+                    </a>
+                </div>
+
+                <form action="#" method="GET" class="header__form">
+                    <input type="search" class="header__form-input" placeholder="Книга, автор, серия, издательство, тег, жанр">
+                    <button class="header__form-btn" type="submit">
+                        <img src="img/search.svg" width="20" height="20" alt="Search">
+                    </button>
+                </form>
+
+                <div class="header__user">
+                    <button class="header__user-auth">
+                        <img src="img/user.svg" width="20" height="20" alt="Auth">
+                    </button>
+                    <button class="header__user-advice">
+                        <img src="img/advice.svg" width="20" height="20" alt="advice">
+                    </button>
+
+                    <a href="#" class="header__user-books">
+                        Мои книги
+                    </a>
+                </div>
+            </div>
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="audiobook.html">Аудиокниги</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="#">Жанры</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="newbook.html">Новинки</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="#">Что почитать?</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header__nav-link" href="index.html">Популярное</a>
+                    </li>
+                </ul>
+                <button type="button" class="header-menu__burger">
+                    <span class="header-menu__burger-item"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="way">
+        <div class="container"> 
+            <a href="#" class="way__library">
+            Книги
+            </a>
+            <span class="divider"> — </span>
+            <a href="#" class="way__kidFantastic">
+                Детская фантастика
+            </a>
+            <span class="divider"> — </span>
+            <a href="#" class="way__library">
+            Мила Нокс
+            </a>
+            <span class="divider"> — </span>
+            <a class="way__kidFantastic">
+                Игра в Сумерках
+            </a>
+        </div>    
+    </div>
+
+
+    <section class="book">
+        <div class="container">
+            <div class="book__inner">
+                <div class="book__img">
+                    <picture>
+                        <source type="image/webp" srcset="img/book-makabr-twilight-big.webp, img/book-makabr-twilight-big@2x.webp 2x, img/book-makabr-twilight-big@3x.webp 3x">
+                        <img src="img/book-makabr-twilight-big.jpg" class="book__img-photo" srcset="img/book-makabr-twilight-big@2x.jpg 2x, img/book-makabr-twilight-big@3x.jpg 3x" alt="Макабр Игра в Сумерках">
+                    </picture>
+                </div>
+
+                <div class="book-content">
+                    <div class="book__header">
+                        <h2 class="book__header-name">
+                            Игра в сумерках
+                        </h2>
+                        <div class="book__header-info">
+                            <span>Автор:</span> 
+                            <a class="book__header-author" href="#">Мила Нокс</a>
+                        </div>
+                        <div class="book__header-info">
+                            <span>Из серии</span>
+                            <a class="book__header-series" href="#">Макабр</a>
+                            <small class="book__header-series-count">#1</small>
+                        </div>
+                    </div>
+
+                    <div class="book-content__ratings">
+                        <div class="content__ratings-readres">
+                            <img src="img/star.svg" width="16" height="15" alt="">
+                            <span class="content__ratings-readres-score">4,5</span>
+                            <div class="content__ratings-readres-number-reviews">72</div>
+                        </div>
+                        <div class="content__ratings-readres">
+                            <img src="img/star-blue.svg" width="16" height="15" alt="">
+                            <span class="content__ratings-livelib-score">4,2</span>
+                            <span class="content__ratings-livelib-number-reviews">770</span>
+                        </div>
+                        <div class="content__ratings-readres">
+                            <span class="content__ratings-readres-count">10</span>
+                            <img src="img/reviews.svg" width="14" height="14" alt="">
+                            <span class="content__ratings-readres-number-reviews">Отзывы</span>
+                        </div>
+                    </div>
+
+                    <div class="book-content__buy">
+                        <button type="button" class="book-content__buy-btn">
+                            Купить и скачать за 249 рублей
+                        </button>
+                    </div>
+                    <div class="book-content__add">
+                        <button type="button" class="book-content__add-to-сart">Добавить в корзину</button>
+                        <button type="button" class="book-content__add-favorites">
+                            <img src="img/favorites.svg" width="24" height="24" alt="Добавить">
+                        </button>
+                    </div>
+
+                    <div class="book-content__demo">
+                        <a href="#" class="book-content__demo-read">Читать фрагмент</a>
+                        <button type="button" class="book-content__demo-listen">Слушать фрагмент</button>
+                    </div>
+
+                    <div class="book-content__instr">
+                        <div class="book-content__instr-title">
+                            КАК ЧИТАТЬ КНИГУ ПОСЛЕ ПОКУПКИ:
+                        </div>
+                        <div class="book-content__instr-item">
+                            <span class="book-content__instr-text">Смартфон, планшет</span>
+                            <span class="book-content__instr-text">Компьютер, ноутбук</span>
+                            <span class="book-content__instr-text">Ридер</span>
+                        </div>
+                    </div>
+
+                    <div class="book-content__footer">
+                        <div class="book-content__footer-block book-content__footer-length">
+                            Объем:
+                            <span class="book-content__footer-length-count">330стр.</span>
+                        </div>
+                        <div class="book-content__footer-block book-content__footer-genre">
+                            <ul class="book-content__footer-genre-list">
+                                Объем:
+                                <li>
+                                    <a href="#" class="book-content__footer-link">
+                                        Детская фантастика,
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="book-content__footer-link">
+                                        Книги для подростков
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book-content__footer-block book-content__footer-tags">
+                            <ul class="book-content__footer-tags-list">
+                                Теги:
+                                <li>
+                                    <a href="#" class="book-content__footer-link">
+                                        Магическое фэнтези,
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="book-content__footer-link">
+                                        Сверхспособности,
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="book-content__footer-link">
+                                        Смертельная опасность,
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="book-content__footer-link">
+                                        Становление героя 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="book-nav">
+        <div class="container">
+            <div class="book-nav__inner">
+                <a href="#" class="book-nav__section book-nav__section--current">О книге</a>
+                <a href="#" class="book-nav__section book-nav__section--bloquote">Цитаты</a>
+                <a href="#" class="book-nav__section">Отзывы</a>
+                <a href="#" class="book-nav__section">Читать онлайн</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="book-decription">
+        <div class="container">
+            <div class="book-decription__inner">
+
+                <div class="book-decription__text">
+                    <h3 class="book-decription__title">Описание книги</h3>
+                    <p>Первая книга новой фэнтези-серии от победителя VII сезона литературного конкурса «Новая детская книга» Милы Нокс.
+                    </p>
+                    <p>
+                        Трансильвания… Самое жуткое и загадочное место на свете, где обитают оборотни, стригои, колдуны… и те, кто на них охотится. А еще в Трансильвании возле маленького городка Извор, за древними курганами, где племя даков хоронило своих мертвецов, мирно живет Теодор Ливиану. Когда его жизнь рушится, он решает бороться – несмотря ни на что! – и вступает в опасную игру, участвовать в которой приглашает… сама Смерть.   
+                    </p>
+                </div>
+
+                <div class="book-decription__more">
+                    <div class="book-decription__more-title">Подробнее</div>
+                    <ul class="book-decription__more-list">
+                        <li class="book-decription__more-item">
+                            Возрастное ограничение:
+                            <span class="book-decription__more-text">0+</span>
+                        </li>
+                        <li class="book-decription__more-item">
+                            Дата выхода на РидРес:
+                            <span class="book-decription__more-text">26 сентября 2017</span>
+                        </li>
+                        <li class="book-decription__more-item">
+                            Дата написания:
+                            <span class="book-decription__more-text">2017</span>
+                        </li>
+                        <li class="book-decription__more-item">
+                            Объем:
+                            <span class="book-decription__more-text">330стр.</span>
+                        </li>
+                        <li class="book-decription__more-item">
+                            ISBN:
+                            <span class="book-decription__more-text">978-5-353-08364-1</span>
+                        </li>
+                        <li class="book-decription__more-item">
+                            Правообладатель:
+                            <span class="book-decription__more-text">Росмэн</span>
+                        </li>
+                        <li class="book-decription__more-item">
+                            <a href="#" class="book-decription__more-link">Оглавление</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="book-sale">
+                <div class="book-sale__inner">
+                    <div class="book-sale__text">
+                        Книга входит в серию «Макабр»
+                    </div>
+
+                    <div class="book-sale__series">
+                        <a class="book-sale__series-link" href="#"><img src="img/book-series-makabr-1.png" class="book-sale__series-img book-sale__series-img--1" alt=""></a>
+                        <a class="book-sale__series-link" href="#"><img src="img/book-series-makabr-2.png" class="book-sale__series-img book-sale__series-img--2" alt=""></a>
+                        <a class="book-sale__series-link" href="#"><img src="img/book-series-makabr-3.png" class="book-sale__series-img book-sale__series-img--3" alt=""></a>
+                    </div>
+
+                    <div class="book-sale__buy">
+                        <button type="button" class="book-sale__buy-btn">купить серию за 747 Р</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="logo logo--footer">
+                    <a href="index.html">
+                        <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" width="135" height="69" alt="РидРес Книжный интернет магазин">
+                    </a>
+                </div>
+                <div class="footer__col footer__col-about">
+                    <a href="#" class="footer__col-link">О компании </a>       
+                    <a href="#" class="footer__col-link">Контакты</a>
+                    <a href="#" class="footer__col-link">Служба поддержки</a>
+                    <a href="#" class="footer__col-link">Возврат</a>
+                </div>
+                <div class="footer__col footer__col-cooperation">
+                    <a href="#" class="footer__col-link">Публичная оферта</a>       
+                    <a href="#" class="footer__col-link">Политика обработки персональных данных</a>
+                    <a href="#" class="footer__col-link">Согласие на получение рассылки</a>
+                    <a href="#" class="footer__col-link">Сотрудничество</a>
+                </div>
+                <div class="footer__col footer__col-info">
+                    <a href="#" class="footer__col-link">Издательствам</a>       
+                    <a href="#" class="footer__col-link">Авторам</a>
+                    <a href="#" class="footer__col-link">Библиотекам</a>
+                    <a href="#" class="footer__col-link">Партнёрам</a>
+                    <a href="#" class="footer__col-link">Вебмастерам</a>
+                </div>
+                <div class="footer__col footer__col-book">
+                    <a href="newbook.html" class="footer__col-link">Что почитать?</a>       
+                    <a href="#" class="footer__col-link">Бестселлеры</a>
+                    <a href="#" class="footer__col-link">Скоро в продаже</a>
+                    <a href="#" class="footer__col-link">Популярные авторы</a>
+                    <a href="#" class="footer__col-link">Популярные авторы</a>
+                    <a href="#" class="footer__col-link">Интервью с авторами</a>
+                    <a href="#" class="footer__col-link">РидРес: Истории</a>
+                </div>
+                <div class="footer__col footer__col-social">
+                    <span>РидРес в соц.сетях:</span>
+                    <div class="footer__col-icon">
+                        <a target="_blank" href="https://vk.com/ohwwoow">
+                            <img src="img/vk.svg" width="24" height="24" alt="vk">
+                        </a>
+                        <a target="_blank" href="#">
+                            <img src="img/facebook.svg" width="24" height="24" alt="facebook">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/ohwwoow/">
+                            <img src="img/instagram.svg" width="24" height="24" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>  
+</body>
+</html>
